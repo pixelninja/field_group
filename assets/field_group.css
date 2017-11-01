@@ -1,0 +1,37 @@
+.field-field_group_start,
+.field-field_group_end {
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.field-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.field-group > div {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+
+	-webkit-flex-basis: 100%;
+	-moz-flex-basis: 100%;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+}
+
+.field-group > div:not(:last-child) {
+	margin-right: 15px;
+}
