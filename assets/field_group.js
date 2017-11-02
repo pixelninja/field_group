@@ -12,7 +12,7 @@
 				siblings = self.nextUntil('.field-field_group_end');
 
 			siblings.appendTo(wrapper);
-		})
+		});
 	});
 
 })(jQuery);

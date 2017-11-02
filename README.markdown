@@ -11,7 +11,6 @@ Sometimes there are groups of fields that would look nicer in a row, either aest
 - Upload the `/field_group` folder to your Symphony `/extensions` folder.
 - Enable it by selecting "Field Group", choose Enable from the with-selected menu, then click Apply.
 
-
 ## Usage
 
 There are 2 fields, Group Start and Group End. All fields within those will be grouped into a parent wrapper. If there is no Group End field, it will pull out all following fields (including other Groups) so use wisely.
