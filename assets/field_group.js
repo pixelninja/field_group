@@ -1,7 +1,7 @@
 (function ($) {
 	'use strict';
 
-	$(function() {
+	$(window).on('load', function() {
 		if ($('.field-field_group_start').length <= 0) return false;
 
 		var group_start_fields = $('.field-field_group_start');
