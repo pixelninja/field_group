@@ -6,6 +6,8 @@
 }
 
 .field-group {
+	margin-left: -6px;
+	margin-right: -6px;
 	margin-bottom: 1.5rem;
 
     display: -webkit-box;
@@ -19,10 +21,15 @@
     -webkit-justify-content: space-between;
     -moz-justify-content: space-between;
     justify-content: space-between;
+
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .field-group > div {
-	margin-bottom: 0;
+	margin: 0 6px;
 
 	-webkit-box-flex: 1;
 	-webkit-flex-grow: 1;
@@ -30,14 +37,10 @@
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 
-	-webkit-flex-basis: 100%;
-	-moz-flex-basis: 100%;
-	-ms-flex-preferred-size: 100%;
-	flex-basis: 100%;
-}
-
-.field-group > div:not(:last-child) {
-	margin-right: 15px;
+	-webkit-flex-basis: calc(33.33% - 12px);
+	-moz-flex-basis: calc(33.33% - 12px);
+	-ms-flex-preferred-size: calc(33.33% - 12px);
+	flex-basis: calc(33.33% - 12px);
 }
 
 .field-group label {
