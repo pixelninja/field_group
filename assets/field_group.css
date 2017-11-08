@@ -47,7 +47,12 @@
 	margin: 0;
 }
 
-/* Meta Keys compatibility */
+/*
+ *	Extension compatibility
+ */
+
+/* Meta Keys */
+.field-group .field-dynamictextfield ol,
 .field-group .field-metakeys ol {
     display: -webkit-box;
     display: -webkit-flex;
@@ -61,6 +66,7 @@
     flex-wrap: wrap;
 }
 
+.field-group .field-dynamictextfield li,
 .field-group .field-metakeys li {
 	flex-basis: 50%;
 	flex-grow: 1;
