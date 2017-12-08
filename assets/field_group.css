@@ -52,6 +52,7 @@
  */
 
 /* Meta Keys */
+/* Dynamic Text Field */
 .field-group .field-dynamictextfield ol,
 .field-group .field-metakeys ol {
     display: -webkit-box;
@@ -70,4 +71,9 @@
 .field-group .field-metakeys li {
 	flex-basis: 50%;
 	flex-grow: 1;
+}
+
+/* Checkbox */
+.field-group .field-checkbox:first-child {
+	margin-top: 0;
 }
