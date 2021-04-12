@@ -10,26 +10,14 @@
 	margin-right: -6px;
 	margin-bottom: 1.5rem;
 
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
     display: flex;
-
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    -moz-justify-content: space-between;
+    align-items: flex-start;
     justify-content: space-between;
-
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .field-group > div {
-	margin: 0 6px;
+	margin: 0 6px 10px;
 
 	-webkit-box-flex: 1;
 	-webkit-flex-grow: 1;
@@ -53,7 +41,7 @@
 
 /* Meta Keys */
 /* Dynamic Text Field */
-.field-group .field-dynamictextfield ol,
+/*.field-group .field-dynamictextfield ol,*/
 .field-group .field-metakeys ol {
     display: -webkit-box;
     display: -webkit-flex;
@@ -67,13 +55,14 @@
     flex-wrap: wrap;
 }
 
-.field-group .field-dynamictextfield li,
+/*.field-group .field-dynamictextfield li,*/
 .field-group .field-metakeys li {
 	flex-basis: 50%;
 	flex-grow: 1;
 }
 
 /* Checkbox */
-.field-group .field-checkbox:first-child {
-	margin-top: 0;
+.field-group .field-checkbox:first-child,
+.field-group .field.field-checkbox + .field:not(.field-checkbox) {
+    margin-top: 0;
 }
