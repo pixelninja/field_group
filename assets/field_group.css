@@ -63,6 +63,15 @@
 
 /* Checkbox */
 .field-group .field-checkbox:first-child,
+.field-group > div.field-checkbox {
+	margin-top: 17px;
+}
+
 .field-group .field.field-checkbox + .field:not(.field-checkbox) {
     margin-top: 0;
 }
+
+/*.field-group .field-checkbox:first-child,
+.field-group .field.field-checkbox + .field:not(.field-checkbox) {
+    margin-top: 0;
+}*/
